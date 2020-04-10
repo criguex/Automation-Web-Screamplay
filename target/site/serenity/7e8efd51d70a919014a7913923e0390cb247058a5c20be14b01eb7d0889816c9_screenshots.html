@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="894e0118099e8cbe729fa0951627ff1071c56f9e40b6625242de5790bfd25fae.html">Traductor</a></span>
+                > <span class="truncate-60"><a
+                    href="7e8efd51d70a919014a7913923e0390cb247058a5c20be14b01eb7d0889816c9.html">Traducir </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-04-2020 17:52</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Traductor </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
+                            <span class="test-case-title">
+                                <span class="error-color">Traducir
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+                        <div class="panel-heading title="Cucumber exception: Arity mismatch: Step Definition 'stepdefinitions.TraductorStepdefinition.laPalabraSeTraduce(String) in file:/C:/Users/pcc/Documents/Proyectos%20SVE/servicios%20productos%20inversiones/untitled/build/classes/java/test/' with pattern [^la palabra se traduce$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. ">
+                            Cucumber exception: Arity mismatch: Step Definition 'stepdefinitions.TraductorStepdefinition.laPalabraSeTraduce(String) in file:/C:/Users/pcc/Documents/Proyectos%20SVE/servicios%20productos%20inversiones/untitled/build/classes/java/test/' wi...
+                        </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#stacktraceModal-overall">
+                        View details
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-overall" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                    cucumber.runtime.CucumberException
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <h5>
+                                        <pre>Arity mismatch: Step Definition 'stepdefinitions.TraductorStepdefinition.laPalabraSeTraduce(String) in file:/C:/Users/pcc/Documents/Proyectos%20SVE/servicios%20productos%20inversiones/untitled/build/classes/java/test/' with pattern [^la palabra se traduce$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. <br>Step text: la palabra se traduce</pre>
+                                    </h5>
+                                    cucumber.runner.Runner.runPickle(Runner.java
+                                    :80) <br>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource9190245716429243316.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="bae9440ae06a5e8d586eed484f716a0d4c1e2d93ed4ce7c722c8a4319f91a78a.png" title="Dado yo voy al traductor" width="1366"/>
+                <img src="8e02049324523b67368ee0ad133704415a336592c5e4e6858a90e4f8d6bf572d.png" title=" enters 'Traductor' into busqueda del traductor" width="1366"/>
+                <img src="8ef26db35a046702109637b191e4271a6bb752a4fe29fbda7955ec7489f5d64d.png" title=" enters 'Traductor' into busqueda del traductor" width="1366"/>
+                <img src="8ef26db35a046702109637b191e4271a6bb752a4fe29fbda7955ec7489f5d64d.png" title=" clicks on Selecciona traductor google" width="1366"/>
+                <img src="264ca2c7b26fadb187495e80dd04385fe42e94797ae02cc0f2450e7e495a6697.png" title=" clicks on Selecciona traductor google" width="1366"/>
+                <img src="6ffd8ad6bb4b9a161bd882958a92b1d895bf3d3bf6e84e21a8bbed80ddd60900.png" title="Cuando inserto la palara a traducir" width="1366"/>
+                <img src="264ca2c7b26fadb187495e80dd04385fe42e94797ae02cc0f2450e7e495a6697.png" title=" clicks on selecciona idioma final" width="1366"/>
+                <img src="de63467435c8b46ef70e2c47ff47f418dfb7cc4fce255b04f19248d63db87246.png" title=" clicks on selecciona idioma final" width="1366"/>
+                <img src="869968370041b69a373a22c8d75814a13e287165c31d57aeba143ce5042e7d0b.png" title=" clicks on selecciona idioma inicial" width="1366"/>
+                <img src="cb134b450b083ee85283dbad2bc1fcb8911265cd4ad7d092e35cc8ee693ffba9.png" title=" clicks on selecciona idioma inicial" width="1366"/>
+                <img src="7a6e3f00832895faf73475a007a1847b40bb62cb79b233650507da1454298d01.png" title=" enters 'Ardilla' into La caja de texto del traductor" width="1366"/>
+                <img src="352e57de7d535253d44c4a1191f791772e5aa2fda3f604b2798e9d901d407285.png" title=" enters 'Ardilla' into La caja de texto del traductor" width="1366"/>
+                <img src="3b2c90b460ddaa2de96e39ff56b347721c6601cc9336c25be070d417782f2ed4.png" title="Entonces la palabra se traduce" width="1366"/>
+                <img src="a1e2c27cc771c1667c0a2bd3b703e9b3b19f236310c063d8f6bd75278b3f8de7.png" title="Entonces la palabra se traduce: <span class='error-color'>ERROR</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
