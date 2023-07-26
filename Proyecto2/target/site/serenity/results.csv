@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Student Home Page","Student Login","SUCCESS","2023-07-24T15:59:17.153-05:00[America/Bogota]","0.0","20.59"
+"Open registration form","Open registration form","SUCCESS","2023-07-24T16:27:18.878-05:00[America/Bogota]","0.0","12.43"
+"SuccessFull login.","Failed Login","PENDING","2023-07-25T10:18:36.222-05:00[America/Bogota]","0.0","15.49"
+"SuccessFull login.","Failed Login Attempt","SUCCESS","2023-07-25T10:34:18.675-05:00[America/Bogota]","0.0","31.44"
+"Entering new user registration.","User Registration","ERROR","2023-07-26T18:10:05.6860271-05:00[America/Bogota]","0.0","5.79"
+"SuccessFull login.","Successful Login","ERROR","2023-07-26T18:11:21.1304753-05:00[America/Bogota]","0.0","40.61"

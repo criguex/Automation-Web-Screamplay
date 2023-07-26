@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Entering new user registration." skipped="0" tests="1" time="5.79" timestamp="2023-07-26 06:10:05"><testcase name="User Registration"><error message="element click intercepted: Element &lt;a id=&quot;menuUserLink&quot; aria-label=&quot;UserMenu&quot; href=&quot;javascript:void(0)&quot; role=&quot;link&quot; class=&quot;img&quot; data-ng-click=&quot;login('loginMiniTitle')&quot; data-ng-mouseenter=&quot;miniTitleIn('loginMiniTitle')&quot; data-ng-mouseleave=&quot;miniTitleOut('loginMiniTitle')&quot;&gt;...&lt;/a&gt; is not clickable at point (3296, 34). Other element would receive the click: &lt;div class=&quot;loader&quot; style=&quot;display: block; opacity: 0.111427;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=114.0.5735.199)&#10;Build info: version: '4.1.4', revision: '535d840ee2'&#10;System info: host: 'LAPTOP-F921FQTR', ip: '192.168.1.7', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [7484708c0c9ff36091d6257a56a71f80, clickElement {id=B23A4074FE275646B0C59540D662AB33_element_8}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\crist\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:12634}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:12634/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (7484708c0c9ff36091d6257a56a71f80)] -&gt; xpath: /html/body/header/nav/ul/li[3]/a]&#10;Session ID: 7484708c0c9ff36091d6257a56a71f80" type="org.openqa.selenium.ElementClickInterceptedException">element click intercepted: Element &lt;a id="menuUserLink" aria-label="UserMenu" href="javascript:void(0)" role="link" class="img" data-ng-click="login('loginMiniTitle')" data-ng-mouseenter="miniTitleIn('loginMiniTitle')" data-ng-mouseleave="miniTitleOut('loginMiniTitle')"&gt;...&lt;/a&gt; is not clickable at point (3296, 34). Other element would receive the click: &lt;div class="loader" style="display: block; opacity: 0.111427;"&gt;...&lt;/div&gt;
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'LAPTOP-F921FQTR', ip: '192.168.1.7', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7484708c0c9ff36091d6257a56a71f80, clickElement {id=B23A4074FE275646B0C59540D662AB33_element_8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\crist\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:12634}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:12634/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (7484708c0c9ff36091d6257a56a71f80)] -&gt; xpath: /html/body/header/nav/ul/li[3]/a]
+Session ID: 7484708c0c9ff36091d6257a56a71f80</error><system-err>element click intercepted: Element &lt;a id="menuUserLink" aria-label="UserMenu" href="javascript:void(0)" role="link" class="img" data-ng-click="login('loginMiniTitle')" data-ng-mouseenter="miniTitleIn('loginMiniTitle')" data-ng-mouseleave="miniTitleOut('loginMiniTitle')"&gt;...&lt;/a&gt; is not clickable at point (3296, 34). Other element would receive the click: &lt;div class="loader" style="display: block; opacity: 0.111427;"&gt;...&lt;/div&gt;
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'LAPTOP-F921FQTR', ip: '192.168.1.7', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7484708c0c9ff36091d6257a56a71f80, clickElement {id=B23A4074FE275646B0C59540D662AB33_element_8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\crist\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:12634}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:12634/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (7484708c0c9ff36091d6257a56a71f80)] -&gt; xpath: /html/body/header/nav/ul/li[3]/a]
+Session ID: 7484708c0c9ff36091d6257a56a71f80&#13;
+test.certificationlogin.tasks.RegisterUser.performAs(RegisterUser.java:15)&#13;
+test.certificationlogin.stepdefinitions.RegisterUserStepDefinition.iClickOnTheUserButton(RegisterUserStepDefinition.java:26)&#13;
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
+io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:57)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:95)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:151)&#13;
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:151)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)&#13;
+io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:58)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.certificationlogin.runners.TestLogin" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="LAPTOP-F921FQTR" time="0.0">
+  <properties/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/crist/test%20automation/test%20github/testalejo/Proyecto2/src/test/resources/feature/Login/SuccessfullLogin.feature
+[Test worker] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/crist/test%20automation/test%20github/testalejo/Proyecto2/src/test/resources/feature/Login/SuccessfullLogin.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+[Test worker] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+[Test worker] INFO  - Test Suite Started: SuccessFull login.
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/crist/test%20automation/test%20github/testalejo/Proyecto2/src/test/resources/feature/Login/SuccessfullLogin.feature
+[Test worker] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/crist/test%20automation/test%20github/testalejo/Proyecto2/src/test/resources/feature/Login/SuccessfullLogin.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+[Test worker] INFO  - Test Suite Started: SuccessFull login.
+[pool-2-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\crist\test%20automation\test%20github\testalejo\Proyecto2\src\test\resources\feature\Login\SuccessfullLogin.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\crist\test%20automation\test%20github\testalejo\Proyecto2\src\test\resources\feature\Login\SuccessfullLogin.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:229)
+	at java.base/java.io.File.toPath(File.java:2329)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:139)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementFor(BaseRequirementsService.java:49)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:193)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:187)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:103)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[pool-2-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\crist\test%20automation\test%20github\testalejo\Proyecto2\src\test\resources\feature\Login\SuccessfullLogin.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\crist\test%20automation\test%20github\testalejo\Proyecto2\src\test\resources\feature\Login\SuccessfullLogin.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:229)
+	at java.base/java.io.File.toPath(File.java:2329)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:139)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:79)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:223)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:211)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:187)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:103)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[pool-2-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\crist\test%20automation\test%20github\testalejo\Proyecto2\src\test\resources\feature\Login\SuccessfullLogin.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\crist\test%20automation\test%20github\testalejo\Proyecto2\src\test\resources\feature\Login\SuccessfullLogin.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:229)
+	at java.base/java.io.File.toPath(File.java:2329)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:139)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:79)
+	at net.thucydides.core.tags.BreadcrumbTagFilter.getRequirementBreadcrumbsFrom(BreadcrumbTagFilter.java:51)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:224)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:211)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:187)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:103)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[pool-2-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\crist\test%20automation\test%20github\testalejo\Proyecto2\src\test\resources\feature\Login\SuccessfullLogin.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\crist\test%20automation\test%20github\testalejo\Proyecto2\src\test\resources\feature\Login\SuccessfullLogin.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:229)
+	at java.base/java.io.File.toPath(File.java:2329)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:139)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementFor(BaseRequirementsService.java:49)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:193)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:187)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateScreenshotReportsFor(HtmlAcceptanceTestReporter.java:251)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:106)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[pool-2-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\crist\test%20automation\test%20github\testalejo\Proyecto2\src\test\resources\feature\Login\SuccessfullLogin.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\crist\test%20automation\test%20github\testalejo\Proyecto2\src\test\resources\feature\Login\SuccessfullLogin.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:229)
+	at java.base/java.io.File.toPath(File.java:2329)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:139)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:79)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:223)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:211)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:187)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateScreenshotReportsFor(HtmlAcceptanceTestReporter.java:251)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:106)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[pool-2-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\crist\test%20automation\test%20github\testalejo\Proyecto2\src\test\resources\feature\Login\SuccessfullLogin.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\crist\test%20automation\test%20github\testalejo\Proyecto2\src\test\resources\feature\Login\SuccessfullLogin.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:229)
+	at java.base/java.io.File.toPath(File.java:2329)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:139)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:79)
+	at net.thucydides.core.tags.BreadcrumbTagFilter.getRequirementBreadcrumbsFrom(BreadcrumbTagFilter.java:51)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:224)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:211)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:187)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateScreenshotReportsFor(HtmlAcceptanceTestReporter.java:251)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:106)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
+?[32m?[1m??[0m Share your Cucumber Report with your team at ?[36m?[1m?[4mhttps://reports.cucumber.io?[0m          ?[32m?[1m??[0m
+?[32m?[1m??[0m Activate publishing with one of the following:                                    ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m Environment variable:                            ?[36mCUCUMBER_PUBLISH_ENABLED?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m JUnit:                                           ?[36m@CucumberOptions?[0m(publish = ?[36mtrue?[0m) ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m More information at ?[36mhttps://cucumber.io/docs/cucumber/environment-variables/?[0m      ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m Disable this message with one of the following:                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m??[0m
+?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
+]]></system-err>
+</testsuite>
